@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dcbflmykrwm6w"]
+
+[ext_resource type="Texture2D" uid="uid://do6jmfoy5d65t" path="res://assets/tilemap_packed.png" id="1_ffqvj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_85hib"]
+size = Vector2(14.5, 15)
+
+[node name="PlayerSoldier" type="CharacterBody2D"]
+texture_filter = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ffqvj")
+region_enabled = true
+region_rect = Rect2(320, 48, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_85hib")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
