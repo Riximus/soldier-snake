@@ -1,3 +1,3 @@
 # Soldier Snake
 
-![Image of the game](/game-image.png)
+![Image of soldier snake](./game-image.PNG)
